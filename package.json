@@ -1,7 +1,7 @@
 {
   "name": "practice-react-router-dom",
   "version": "0.1.0",
-  "homepage": "https://jsohndata.github.io/practice-react-router-dom",
+  "homepage": "https://jsohndata.github.io/practice-react-router-dom-c11",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
