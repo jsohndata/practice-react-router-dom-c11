@@ -7,14 +7,17 @@ import './styles/App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>                
-        <Route path="/system-overload-solution" element={ <Page1 /> } />        
-        <Route path="/curious-kaleidoscope" element={ <Page2 /> } />
-        <Route path="/" element={ <Home />} />
-        <Route path="*" element={ <Err404 /> } />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <h1>Practice React Router DOM</h1>
+      <BrowserRouter>
+        <Routes>                
+          <Route path="/system-overload-solution" element={ <Page1 /> } />        
+          <Route path="/curious-kaleidoscope" element={ <Page2 /> } />
+          <Route path="/" element={ <Home />} />
+          <Route path="*" element={ <Err404 /> } />
+        </Routes>
+      </BrowserRouter>      
+    </>
   );
 }
 
