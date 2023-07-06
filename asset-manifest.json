@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/practice-react-router-dom/static/css/main.614df490.css",
-    "main.js": "/practice-react-router-dom/static/js/main.b45f47fa.js",
-    "index.html": "/practice-react-router-dom/index.html",
-    "main.614df490.css.map": "/practice-react-router-dom/static/css/main.614df490.css.map",
-    "main.b45f47fa.js.map": "/practice-react-router-dom/static/js/main.b45f47fa.js.map"
+    "main.css": "/practice-react-router-dom-c11/static/css/main.614df490.css",
+    "main.js": "/practice-react-router-dom-c11/static/js/main.b45f47fa.js",
+    "index.html": "/practice-react-router-dom-c11/index.html",
+    "main.614df490.css.map": "/practice-react-router-dom-c11/static/css/main.614df490.css.map",
+    "main.b45f47fa.js.map": "/practice-react-router-dom-c11/static/js/main.b45f47fa.js.map"
   },
   "entrypoints": [
     "static/css/main.614df490.css",
