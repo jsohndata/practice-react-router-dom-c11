@@ -7,7 +7,7 @@ import './styles/App.css';
 
 function App() {
   return (
-    <>
+    <div id="main-container">
       <h1>Practice React Router DOM</h1>
       <BrowserRouter>
         <Routes>                
@@ -16,8 +16,8 @@ function App() {
           <Route path="/" element={ <Home />} />
           <Route path="*" element={ <Err404 /> } />
         </Routes>
-      </BrowserRouter>      
-    </>
+      </BrowserRouter>
+    </div>
   );
 }
 

@@ -1,38 +1,60 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap');
+
+* {
+  color: rgba(234, 237, 243, 0.867);
+}
+
+body {
+  width: 100%;
+  height: 100dvh;
+  background-image: linear-gradient(
+    45deg,
+    #051937, #004d7a, #008793, #00bf72, #a8eb12
+  );
+}
+
+h1, h2 {
+  font-family: 'Corben', cursive;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+nav {
+  font-size: clamp(1.0rem, 4vw, 1.5rem);
+}
+
+iframe {
+  width: min(100%, 560px);
+}
+
+
+
+#main-container {
+  width: 90%;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: column nowrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  color: #000;
+  margin-top: 2%;
+  padding: 15px;
 }
